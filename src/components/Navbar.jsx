@@ -2,7 +2,7 @@ import { RiCloseLine, RiMenu2Line } from '@remixicon/react';
 import React, { useState } from 'react'
 
 const Navbar = () => {
-    const [manu, setManu] = useState(false);
+    const [manu, openMenu] = useState(false);
     const [showManu, setShowManu] = useState(true);
     return (
         <nav className='flex flex-wrap justify-between md:item-center text-white px-10 pt-6 md:px-20'>
@@ -20,7 +20,7 @@ const Navbar = () => {
 
             </ul>
             {showManu ? (
-                <RiMenu2Line size={30} className='md:hidden absolute right-10 top-6 transition-all duration -300' onClick={() => { openMenu(!manu); setShowManu(!showManu) }} />
+                <RiMenu2Line size={30} className='md:hidden absolute right-10 top-6 transition-all duration -300' onClick={() => { openMenu(!manu); setShowManu(showManu) }} />
             ) : <RiCloseLine sixe={30} className='md:hidden absolute right-10 top-6 transition-all duration -300' />}
         </nav>
     )
