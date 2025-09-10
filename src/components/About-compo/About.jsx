@@ -24,10 +24,9 @@ const About = () => {
                         <div className='flex gap-3 py-4'>
                             <IoArrowForward size={30} className="mt-1" />
                             <span className='w-96'>
-                                <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Frontend engineer</h1>
+                                <h1 className='text-xl md:text-2xl font-semibold leading-normal'>WordPress Developer</h1>
                                 <p className='text-sm md:text-md leading-tight'>
-                                    Seeking a role as a frontend engineer to contribute to high-quality web application using technologies like
-                                    react, tailwind css and git while continously learning and growing in a collaborative devlopment enviroment
+                                I specialize in WordPress customization, theme development, plugin integration, and website optimization to deliver a smooth user experience and professional online presence. My goal is to help businesses and individuals build websites that are both visually appealing and highly functional.
 
                                 </p>
                             </span>
