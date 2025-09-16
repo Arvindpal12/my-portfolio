@@ -59,7 +59,7 @@ const Exprince = () => {
             <span className='text-white w-full md:w-96'>
               <div className='pr-0 md:pr-4'>
                 <h2 className='leading-tight text-center md:text-left'>Qualification</h2>
-                <p className='text-sm md:text-base leading-tight font-thin'>
+                <p className='text-sm md:text-base leading-tight font-bold'>
                    Diploma in  : Computer Science Engineering
                 </p>
                 <ul className='text-sm md:text-base p-2'>
