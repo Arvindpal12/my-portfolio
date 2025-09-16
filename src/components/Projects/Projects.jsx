@@ -27,13 +27,14 @@ const Projects = () => {
     <div id='projects' className='p-10 md:p-24 text-white'>
         <h1 className='text-2xl md:text-4xl text-white font-bold'> Projects</h1>
         <div className='py-12 px-8 flex flex-wrap gap-5 justify-center'>
-            <ProjectCard title="Resturant Website"
-            main="this is a rasturent website create in bootstrap and use some features and using basic css and html" onDemoClick={handleDemo1} onSourceClick={handleSource1}
-            />
+             <ProjectCard title="AI Assistent"
+            main="this is a AI Assistent create in js and use some features and using  css and html" onDemoClick={handleDemo3} onSourceClick={handleSource3} />
             <ProjectCard title="Currency Converter"
             main="this is a Currency Convertor create in js and use some features and using  css and html" onDemoClick={handleDemo2} onSourceClick={handleSource2} />
-            <ProjectCard title="AI Assistent"
-            main="this is a AI Assistent create in js and use some features and using  css and html" onDemoClick={handleDemo3} onSourceClick={handleSource3} />
+          
+              <ProjectCard title="Resturant Website"
+            main="this is a rasturent website create in bootstrap and use some features and using basic css and html" onDemoClick={handleDemo1} onSourceClick={handleSource1}
+            />
 
 
 
