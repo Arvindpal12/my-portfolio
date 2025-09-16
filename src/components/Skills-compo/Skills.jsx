@@ -51,20 +51,20 @@ const Exprince = () => {
 
         </div>
         <div >
-          <div className='flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center '>
+          <div className='flex flex-col md:flex-row gap-4 md:gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center md:items-start'>
             {/* <FaGoogle color='#4285FA' size={50} /> */}
-            <div className=' flex flex-wrap group [perspective:1000px] w-100 h-100' >
-              <img className='w-100 h-auto transition-transform duration-700 group-hover:[transform:rotateY(180deg)] [transform-style:preserve-3d]' src={avtar} alt="" />
+            <div className='flex flex-wrap group [perspective:1000px] w-full md:w-auto'>
+              <img className='w-full max-w-xs h-auto transition-transform duration-700 group-hover:[transform:rotateY(180deg)] [transform-style:preserve-3d]' src={avtar} alt="" />
             </div>
-            <span className='text-white'>
-              <div className='pr-4'>
-                <h2 className='leading-tight text-center'>Qualification</h2>
-                <p className='text-sm leading-tight font-thin'>
+            <span className='text-white w-full md:w-96'>
+              <div className='pr-0 md:pr-4'>
+                <h2 className='leading-tight text-center md:text-left'>Qualification</h2>
+                <p className='text-sm md:text-base leading-tight font-thin'>
                    Diploma in  : Computer Science Engineering
                 </p>
-                <ul className='text-sm p-2'>
+                <ul className='text-sm md:text-base p-2'>
                   <li>1.  12th from HBSE Board :- G.M.Sr.Sec.School</li>
-                  <li>2.  Over All Diploma prasentage are (78%)
+                  <li>2.  Over All Diploma percentage are (78%)
                   </li>
                 </ul>
               </div>
