@@ -8,6 +8,7 @@ import { FaWordpress, FaPhp } from "react-icons/fa";
 
 // import { FaGoogle } from "react-icons/fa";
 import { SiPython } from "react-icons/si";
+import { TbSql } from 'react-icons/tb';
 // import { RiNetflixFill } from "@remixicon/react";
 // import { FaAmazon } from "react-icons/fa";
 
@@ -29,6 +30,9 @@ const Exprince = () => {
           </span>
           <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <SiTailwindcss color="#3b82f6" size={50} />
+          </span>
+          <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+            <TbSql color=" #00758F" size={50} />
           </span>
           <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <FaJs color="#F7DF1E" size={50} />
