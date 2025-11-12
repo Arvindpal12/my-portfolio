@@ -1,7 +1,7 @@
 import React from 'react';
 import avtar from "../../assets/avtar.png"
 import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact } from "react-icons/fa";
-import { SiGithub } from "react-icons/si";
+import { SiGithub, SiMysql } from "react-icons/si";
 import { UserIcon } from '@heroicons/react/24/solid'
 import { SiTailwindcss } from 'react-icons/si';
 import { FaWordpress, FaPhp } from "react-icons/fa";
@@ -47,6 +47,9 @@ const Exprince = () => {
           </span>
           <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <FaPhp color="#777BB4" size={50} />
+          </span>
+             <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+            <SiMysql color="#F29111" size={50} />
           </span>
 
         </div>
