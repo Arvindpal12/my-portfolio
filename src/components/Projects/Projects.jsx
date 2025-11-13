@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard'
 
 const Projects = () => {
   const handleDemo1 = () => {
-    window.open('https://github.com/Arvindpal12/Restaurant-project.git') // Placeholder for demo
+    window.open('https://github.com/Arvindpal12/tic-toc-teo-game.netlify.app/') // Placeholder for demo
   };
   const handleSource1 = () => {
     window.open('https://github.com/Arvindpal12/Restaurant-project.git')
@@ -28,12 +28,12 @@ const Projects = () => {
         <h1 className='text-2xl md:text-4xl text-white font-bold'> Projects</h1>
         <div className='py-12 px-8 flex flex-wrap gap-5 justify-center'>
              <ProjectCard title="AI Assistent"
-            main="this is a AI Assistent create in js and use some features and using  css and html" onDemoClick={handleDemo3} onSourceClick={handleSource3} />
+            main="This is a AI Assistent create in js and use some features and using  css and html" onDemoClick={handleDemo3} onSourceClick={handleSource3} />
             <ProjectCard title="Currency Converter"
-            main="this is a Currency Convertor create in js and use some features and using  css and html" onDemoClick={handleDemo2} onSourceClick={handleSource2} />
+            main="This is a Currency Convertor create in js and use some features and using  css and html" onDemoClick={handleDemo2} onSourceClick={handleSource2} />
           
-              <ProjectCard title="Resturant Website"
-            main="this is a rasturent website create in bootstrap and use some features and using basic css and html" onDemoClick={handleDemo1} onSourceClick={handleSource1}
+              <ProjectCard title="Tic-Toc-Teo Game"
+            main="This is a Tic-Toc-Teo developed using ReactJS, Tailwind CSS, and core HTML/CSS/JavaScript." onDemoClick={handleDemo1} onSourceClick={handleSource1}
             />
 
 
