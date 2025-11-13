@@ -3,10 +3,10 @@ import ProjectCard from './ProjectCard'
 
 const Projects = () => {
   const handleDemo1 = () => {
-    window.open('https://github.com/Arvindpal12/tic-toc-teo-game.netlify.app/') // Placeholder for demo
+    window.open('https://tic-toc-teo-game.netlify.app/') // Placeholder for demo
   };
   const handleSource1 = () => {
-    window.open('https://github.com/Arvindpal12/Restaurant-project.git')
+    window.open('https://github.com/Arvindpal12/Tic-toc-game.git')
   };
 
   const handleDemo2 = () => {
