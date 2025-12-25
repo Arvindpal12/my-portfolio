@@ -58,7 +58,7 @@ const Exprince = () => {
 
         </div>
         <div >
-          <div className='flex flex-col md:flex-row gap-4 md:gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center md:items-start'>
+          <div className='flex flex-col md:flex-row gap-4 md:gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center md:items-center'>
             {/* <FaGoogle color='#4285FA' size={50} /> */}
             <div className='flex flex-wrap group [perspective:1000px] w-full md:w-auto'>
               <img className='w-full max-w-xs h-auto transition-transform duration-700 group-hover:[transform:rotateY(180deg)] [transform-style:preserve-3d]' src={avtar} alt="" />
