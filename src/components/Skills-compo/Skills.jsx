@@ -64,17 +64,18 @@ const Exprince = () => {
               <img className='w-full max-w-xs h-auto transition-transform duration-700 group-hover:[transform:rotateY(180deg)] [transform-style:preserve-3d]' src={avtar} alt="" />
             </div>
             <span className='text-white w-full md:w-96'>
-              <div className='pr-0 md:pr-4 items-center'>
-                <h2 className='leading-tight text-center md:text-left'>Qualification</h2>
-                <p className='text-sm md:text-base leading-tight font-bold'>
-                   Diploma in  : Computer Science Engineering
-                </p>
-                <ul className='text-sm md:text-base p-2'>
-                  <li>1.  12th from HBSE Board :- G.M.Sr.Sec.School</li>
-                  <li>2.  Over All Diploma percentage are (78%)
-                  </li>
-                </ul>
-              </div>
+              <div className="text-white w-full md:w-80 lg:w-96 p-4 sm:p-6 flex flex-col items-center lg:items-start">
+              <h2 className="leading-tight text-xl sm:text-2xl font-bold mb-4 text-center lg:text-left">
+                Qualification
+              </h2>
+              <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-tight font-bold mb-2">
+                Diploma :- Computer Science Engg.,Govt.Polytechnic Mandi Adampur,Hisar
+              </p>
+              <ul className="text-xs sm:text-sm md:text-base lg:text-lg space-y-1">
+                <li>SENIOR SECONDARY EDUCATION:-G.M.S.S.School</li>
+                <li>SECONDARY EDUCATION:-G.M.S.S.SchoolL</li>
+              </ul>
+            </div>
             </span>
           </div>
           {/*<div className='flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center transition-transform duration-200 ease-in-out hover:scale-125'>
