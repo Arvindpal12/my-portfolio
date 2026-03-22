@@ -40,6 +40,16 @@ const About = () => {
                                     continously enhance my technical skill
 
                                 </p>
+                                 <div className="pt-4 flex justify-center md:justify-start">
+                                    <a 
+                                        href="/resume1.pdf" 
+                                        download="Arvind-Resume.pdf" 
+                                        className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold text-base rounded-lg shadow-lg shadow-blue-900/50 hover:from-blue-500 hover:to-purple-500 hover:shadow-xl hover:scale-105 transition-all duration-300 hover:-translate-y-1 group"
+                                    >
+                                        Download Resume
+                                        <IoArrowForward className="ml-2 group-hover:translate-x-2 transition-transform duration-300" size={20} />
+                                    </a>
+                                </div>
                             </span>
                         </div>
                     </ul>
