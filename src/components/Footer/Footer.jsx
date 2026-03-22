@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
             <ul className='text-sm md:text-xl'>
                  <li className='flex gap-1 items-center'>
-                    <MdOutlineEmail size={30}/><a href='arvindpal6706@gmail.com' target='_blank' rel='noopener noreferrer'>arvindpal6706@gmail.com</a>
+                    <MdOutlineEmail size={30}/><a href='mailto:arvindpal6706@gmail.com' target='_blank' rel='noopener noreferrer'>arvindpal6706@gmail.com</a>
                     </li>
              
                 <li className='flex gap-1 items-center'>
