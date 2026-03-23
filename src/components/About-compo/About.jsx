@@ -33,14 +33,14 @@ const About = () => {
                         </div>
                         <div className='flex gap-3 py-4'>
                             <IoArrowForward size={30} className="mt-1" />
-                            <span className='w-96'>
+                            <span className='w-full md:w-96'>
                                 <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Softwere developer</h1>
                                 <p className='text-sm md:text-md leading-tight'>
                                     Looking  for a challenging softwere devlopment role that allow me to work on meaningful solution collabrate with experienced devlopers and
                                     continously enhance my technical skill
 
                                 </p>
-                                 <div className="pt-4 flex justify-center md:justify-start">
+                                 <div className="pt-4 flex justify-start md:justify-start">
                                     <a 
                                         href="/Arvind wordpress developer-2.pdf" 
                                         download="Arvind-Resume.pdf" 

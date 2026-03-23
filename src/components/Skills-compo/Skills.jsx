@@ -19,40 +19,40 @@ const Exprince = () => {
       <h1 className='text-2xl md:text-4xl text-white font-bold'>Skills</h1>
       <div className='flex flex-wrap item-center justify-around'>
         <div className='grid grid-cols-4 md:grid-cols-4 lg:grid-cols-3 gap-8 md:p-20 py-10'>
-          <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <FaHtml5 color="#E34F26" size={50} />
           </span>
-          <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <FaCss3 color="#1572b6" size={50} />
           </span>
-          <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <FaReact color="#61DAFB" size={50} />
           </span>
-          <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <SiTailwindcss color="#3b82f6" size={50} />
           </span>
-          <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <TbSql color=" #00758F" size={50} />
           </span>
-          <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <FaJs color="#F7DF1E" size={50} />
           </span>
-          <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <FaFigma color="#F24E1E" size={50} />
           </span>
-          <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             < SiPython color="#3776AB" size={50} />
           </span>
-          <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <SiGithub color="#FF4438" size={50} />
           </span>
-           <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+           <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <FaWordpress color="#00749C" size={50} />
           </span>
-          <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <FaPhp color="#777BB4" size={50} />
           </span>
-             <span className='p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+             <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <SiMysql color="#F29111" size={50} />
           </span>
 
