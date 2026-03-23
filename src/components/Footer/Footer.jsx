@@ -19,8 +19,8 @@ const Footer = () => {
                     </li>
              
                 <li className='flex gap-1 items-center'>
-                    <CiLinkedin size={30} /><a href='https://www.linkedin.com/in/mohit-15743a352' target='_blank' rel='noopener noreferrer'>
-                   www.linkedin.com/in/mohit-15743a352 </a>
+                    <CiLinkedin size={30} /><a href='https://www.linkedin.com/in/arvind-pal-70b4b4300?' target='_blank' rel='noopener noreferrer'>
+                   www.linkedin.com/in/arvind-pal-70b4b4300?</a>
                 </li>
                 <li className='flex gap-1 items-center'>
                     <FaGithub size={30} /><a href='https://github.com/Arvindpal12' target='_blank' rel='noopener noreferrer'>

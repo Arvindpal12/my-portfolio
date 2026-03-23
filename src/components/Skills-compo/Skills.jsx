@@ -57,9 +57,9 @@ const Exprince = () => {
           </span>
 
         </div>
-        <div >
+        {/* <div className='w-full'>
           <div className='flex flex-col md:flex-row gap-4 md:gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center md:items-center'>
-            {/* <FaGoogle color='#4285FA' size={50} /> */}
+        
             <div className='flex flex-wrap group [perspective:1000px] w-full md:w-auto'>
               <img className='w-full max-w-xs h-auto transition-transform duration-700 group-hover:[transform:rotateY(180deg)] [transform-style:preserve-3d]' src={avtar} alt="" />
             </div>
@@ -78,41 +78,29 @@ const Exprince = () => {
             </div>
             </span>
           </div>
-          {/*<div className='flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center transition-transform duration-200 ease-in-out hover:scale-125'>
-            <RiNetflixFill color='#E50914' size={50} />
-            <span className='text-white'>
-              <h2 className='leading-tight'>Softwere Engineer,Google</h2>
-              <p className='text-sm leading-tight font-thin'>
-                Sept 2023 - Present
-              </p>
-              <ul className='text-sm p-2'>
-                <li>work as softwere devloper</li>
-                <li>work as SDE devloper</li>
-              </ul>
-            </span>
-          </div>
-          <div className='flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center transition-transform duration-200 ease-in-out hover:scale-125'>
-            <FaAmazon color='#FF9900' size={50} />
-            <span className='text-white'>
-              <h2 className='leading-tight'>Softwere Engineer,Google</h2>
-              <p className='text-sm leading-tight font-thin'>
-                Sept 2023 - Present
-              </p>
-              <ul className='text-sm p-2'>
-                <li>work as softwere devloper</li>
-                <li>work as SDE devloper</li>
-              </ul>
-            </span>
-          </div>
         </div> */}
-          {/* <div>
-            <div className=' flex flex-wrap group [perspective:1000px] w-100 h-100' >
-              <img className='w-full h-full transition-transform duration-700 group-hover:[transform:rotateY(180deg)] [transform-style:preserve-3d]' src={avtar} alt="" />
+         <div className="w-full">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 bg-slate-950/70 backdrop-blur-md rounded-3xl p-8 md:p-12 lg:p-16 items-center lg:items-start w-full max-w-6xl mx-auto shadow-2xl">
+            <div className="flex flex-wrap group [perspective:1000px] w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto lg:mx-0">
+              <img
+                className="max-w-48 sm:max-w-56 md:max-w-64 h-auto mx-auto transition-transform duration-700 group-hover:[transform:rotateY(180deg)] [transform-style:preserve-3d] rounded-lg shadow-lg"
+                src={avtar}
+                alt=""
+              />
             </div>
-
-          </div> */}
-
-
+            <div className="text-white w-full md:w-80 lg:w-96 p-4 sm:p-6 flex flex-col items-center lg:items-start">
+              <h2 className="leading-tight text-xl sm:text-2xl font-bold mb-4 text-center lg:text-left">
+                Qualification
+              </h2>
+              <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-tight font-bold mb-2">
+                Diploma :- Computer Science Engg.,Govt.Polytechnic Mandi Adampur,Hisar
+              </p>
+              <ul className="text-xs sm:text-sm md:text-base lg:text-lg space-y-1">
+                <li>SENIOR SECONDARY EDUCATION:-G.M.S.S.School</li>
+                <li>SECONDARY EDUCATION:-G.M.S.S.SchoolL</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div >
     </div>
