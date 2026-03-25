@@ -79,7 +79,7 @@ const Exprince = () => {
             </span>
           </div>
         </div> */}
-         <div className="w-full">
+         {/* <div className="w-full">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 bg-slate-950/70 backdrop-blur-md rounded-3xl p-8 md:p-12 lg:p-16 items-center lg:items-start w-full max-w-6xl mx-auto shadow-2xl">
             <div className="flex flex-wrap group [perspective:1000px] w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto lg:mx-0">
               <img
@@ -98,6 +98,29 @@ const Exprince = () => {
               <ul className="text-xs sm:text-sm md:text-base lg:text-lg space-y-1">
                 <li>SENIOR SECONDARY EDUCATION:-G.M.S.S.School</li>
                 <li>SECONDARY EDUCATION:-G.M.S.S.SchoolL</li>
+              </ul>
+            </div>
+          </div>
+        </div> */}
+         <div className="w-full">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 bg-slate-950/70 backdrop-blur-md rounded-3xl p-8 md:p-12 lg:p-16 items-center lg:items-start w-full max-w-6xl mx-auto shadow-2xl">
+            <div className="flex flex-wrap group [perspective:1000px] w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto lg:mx-0">
+              <img
+                className="max-w-48 sm:max-w-56 md:max-w-64 h-auto mx-auto transition-transform duration-700 group-hover:[transform:rotateY(180deg)] [transform-style:preserve-3d] rounded-lg shadow-lg"
+                src={avtar}
+                alt=""
+              />
+            </div>
+            <div className="text-white w-full md:w-80 lg:w-96 p-4 sm:p-6 flex flex-col items-center lg:items-start">
+              <h2 className="leading-tight text-xl sm:text-2xl font-bold mb-4 text-center lg:text-left">
+                Qualification
+              </h2>
+              <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-tight font-bold mb-2">
+                Graduation :- BBA(CAM), AGGARWAL COLLEGE BALLABHGARH, FARIDABAD
+              </p>
+              <ul className="text-xs sm:text-sm md:text-base lg:text-lg space-y-1">
+                <li>SENIOR SECONDARY EDUCATION:- PAL PUBLIC SR. SEC. SCHOOL.</li>
+                <li>SECONDARY EDUCATION:- KARHANA SR. SEC. SCHOOL</li>
               </ul>
             </div>
           </div>
