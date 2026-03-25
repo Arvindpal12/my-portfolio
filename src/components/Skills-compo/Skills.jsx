@@ -116,11 +116,11 @@ const Exprince = () => {
                 Qualification
               </h2>
               <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-tight font-bold mb-2">
-                Graduation :- BBA(CAM), AGGARWAL COLLEGE BALLABHGARH, FARIDABAD
+                Diploma :- Computer Science Engg.,Govt.Polytechnic Mandi Adampur,Hisar
               </p>
               <ul className="text-xs sm:text-sm md:text-base lg:text-lg space-y-1">
-                <li>SENIOR SECONDARY EDUCATION:- PAL PUBLIC SR. SEC. SCHOOL.</li>
-                <li>SECONDARY EDUCATION:- KARHANA SR. SEC. SCHOOL</li>
+                <li>SENIOR SECONDARY EDUCATION:-G.M.S.S.School</li>
+                <li>SECONDARY EDUCATION:-G.M.S.S.School</li>
               </ul>
             </div>
           </div>
