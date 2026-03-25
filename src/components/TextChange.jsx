@@ -20,7 +20,7 @@ const TextChange = () => {
             }
             if(endValue<2.1){
                 setIsForward(true)
-                setIndex((prev)=>prev&text.length);
+                setIndex((prev)=>prev % text.length);
             }
         },50)
         return ()=>clearInterval(interval)
