@@ -116,7 +116,7 @@ const Exprince = () => {
                 Qualification
               </h2>
               <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-tight font-bold mb-2">
-                Diploma :- Computer Science Engg.,Govt.Polytechnic Mandi Adampur,Hisar
+                Diploma :- Computer Science Engg.,G.P.M.A,Hisar
               </p>
               <ul className="text-xs sm:text-sm md:text-base lg:text-lg space-y-1">
                 <li>SENIOR SECONDARY EDUCATION:-G.M.S.S.School</li>
