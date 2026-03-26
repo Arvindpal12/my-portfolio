@@ -47,6 +47,7 @@ const Home = () => {
         {/* <a href='https://wa.me/7398696706'target='blank'>
                 <button className=' mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:px-4 hover:opacity-85
             duration-300 hover:scale-105  font-semibold rounded-3xl bg-[#465697]'>Contact Me</button></a> */}
+            <a href='https://wa.me/7398696706'target='blank'>
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
@@ -54,6 +55,7 @@ const Home = () => {
         >
           Contact Me
         </motion.button>
+        </a>
       </motion.div>
       <div className="flex flex-wrap item-center justify-around ">
         <img className="w-full h-auto animate-updown " src={studentA} alt="" />
