@@ -19,7 +19,7 @@ const Home = () => {
     //       user-friendly websites that help businesses grow and stand out online.
     //     </p>
       <motion.div
-      className="text-white flex flex-wrap w-full h-auto justify-between items-start p-10 md:p-20"
+      className="text-white flex flex-col md:flex-row w-full h-auto justify-center md:justify-between items-center p-10 md:p-20"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2 }}
@@ -28,7 +28,7 @@ const Home = () => {
       
       {/* LEFT SECTION */}
       <motion.div
-        className="md:w-2/4 md:pt-10"
+        className="md:w-2/4 md:pt-10 text-center md:text-left"
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
@@ -60,13 +60,13 @@ const Home = () => {
       </motion.div>
       {/* RIGHT SECTION */}
       <motion.div
-        className="md:w-2/4 flex justify-center items-center"
+        className="w-full md:w-2/4 flex justify-center items-center mt-8 md:mt-0"
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <img className="w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full object-cover animate-updown" src={arvind} alt="Arvind" />
+        <img className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full object-cover mx-auto animate-updown" src={arvind} alt="Arvind" />
       </motion.div>
     </motion.div>
   );
