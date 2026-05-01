@@ -18,8 +18,8 @@ const Home = () => {
     //       Tailwind CSS, WordPress, and PHP. I create modern, responsive, and
     //       user-friendly websites that help businesses grow and stand out online.
     //     </p>
-      <motion.div
-      className="text-white flex flex-col md:flex-row w-full h-auto justify-center md:justify-between items-center p-10 md:p-20"
+<motion.div
+      className="text-white flex flex-col md:flex-row w-full h-auto justify-center items-center p-10 md:p-20"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2 }}
@@ -39,8 +39,8 @@ const Home = () => {
         </h1>
 
         <p className="text-sm md:text-2xl tracking-tight">
-          I’m a Web Developer skilled in HTML, CSS, JavaScript, React.js,
-          Tailwind CSS, WordPress, and PHP. I create modern, responsive, and
+          I’m a Web Developer skilled in HTML, CSS, JavaScript, React.js,Node.js,
+          Tailwind CSS, Gsap, WordPress, MySQL, PHP and etc .I'm create modern, responsive, and
           user-friendly websites that help businesses grow and stand out online.
         </p>
 
@@ -58,9 +58,9 @@ const Home = () => {
         </motion.button>
         </a>
       </motion.div>
-      {/* RIGHT SECTION */}
+{/* RIGHT SECTION */}
       <motion.div
-        className="w-full md:w-2/4 flex justify-center items-center mt-8 md:mt-0"
+        className="w-full md:w-2/4 flex justify-start items-center mt-8 md:mt-0"
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
