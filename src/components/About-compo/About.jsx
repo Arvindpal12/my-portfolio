@@ -120,13 +120,13 @@ const About = () => {
               <IoArrowForward size={30} className="mt-1" />
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Frontend developer
+                 Full-Stack Developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  To obtain a front-end development position that allows me to
-                  apply my knowledge of modern web technologies and framwork
-                  like tailwind css aand react to build efficient,scalble user
-                  interface
+                Full-Stack Developer with a strong track record of designing,
+                building, and deploying scalable, end-to-end web applications. 
+                Proficient across the entire stack—from intuitive frontend user 
+                interfaces to robust backend architectures and cloud infrastructure.
                 </p>
               </span>
             </div>
@@ -134,14 +134,14 @@ const About = () => {
               <IoArrowForward size={30} className="mt-1" />
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                   WordPress Developer
+                   WordPress & Shopify Developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  I specialize in WordPress customization, theme development,
-                  plugin integration, and website optimization to deliver a
-                  smooth user experience and professional online presence. My
-                  goal is to help businesses and individuals build websites that
-                   are both visually appealing and highly functional.
+                 WordPress & Shopify Developer specialized in
+                 building high-converting e-commerce storefronts and custom CMS solutions.
+                 Expert at transforming design mockups into fast, 
+                 responsive, and SEO-optimized web experiences using PHP,
+                 Liquid, and modern frontend tools.
                 </p>
               </span>
             </div>
@@ -149,7 +149,7 @@ const About = () => {
               <IoArrowForward size={30} className="mt-1" />
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Softwere developer
+                  Softwere Developer 
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
                   Looking for a challenging softwere devlopment role that allow
@@ -159,7 +159,7 @@ const About = () => {
                 <div className="text-sm pt-4 flex justify-start">
                   <a
                     href="/Arvind wordpress developer-2.pdf"
-                    download="Arvind-Resume.pdf"
+                    download="Fullstack developer.pdf"
                     className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold text-base rounded-lg shadow-lg shadow-blue-900/50 hover:from-blue-500 hover:to-purple-500 hover:shadow-xl hover:scale-105 transition-all duration-300 hover:-translate-y-1 group"
                   >
                     Download Resume

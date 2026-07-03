@@ -1,6 +1,6 @@
 import React from "react";
 // import studentA from "../../assets/image-arvind.png";
-import arvind from "../../assets/arvind.jpg";
+import arvind1 from "../../assets/arvind1.jpeg";
 import TextChange from "../TextChange";
 import { motion } from "framer-motion";
 
@@ -39,9 +39,11 @@ const Home = () => {
         </h1>
 
         <p className="text-sm md:text-2xl tracking-tight">
-          I’m a Web Developer skilled in HTML, CSS, JavaScript, React.js,Node.js,
-          Tailwind CSS, Gsap, WordPress, MySQL, PHP and etc .I'm create modern, responsive, and
-          user-friendly websites that help businesses grow and stand out online.
+          I’m a Full-Stack & CMS Developer dedicated to building fast,
+          high-converting, and visually stunning web experiences. 
+          I bridge the gap between robust backend architecture and
+          pixel-perfect user interfaces. Whether it's a dynamic React application 
+          or a custom-coded e-commerce storefront, I build solutions that drive business growth.
         </p>
 
        
@@ -66,7 +68,7 @@ const Home = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <img className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full object-cover mx-auto animate-updown" src={arvind} alt="Arvind" />
+        <img className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full object-cover mx-auto animate-updown" src={arvind1} alt="Arvind" />
       </motion.div>
     </motion.div>
   );

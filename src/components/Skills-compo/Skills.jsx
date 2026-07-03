@@ -5,6 +5,7 @@ import { SiGithub, SiMysql } from "react-icons/si";
 import { UserIcon } from '@heroicons/react/24/solid'
 import { SiTailwindcss } from 'react-icons/si';
 import { FaWordpress, FaPhp } from "react-icons/fa";
+import { SiShopify, SiMongodb, SiNodedotjs, SiExpress } from 'react-icons/si';
 
 // import { FaGoogle } from "react-icons/fa";
 import { SiPython } from "react-icons/si";
@@ -18,7 +19,7 @@ const Exprince = () => {
     <div id='Skills' className='p-10 md:p-24'>
       <h1 className='text-2xl md:text-4xl text-white font-bold'>Skills</h1>
       <div className='flex flex-wrap item-center justify-around'>
-        <div className='grid grid-cols-4 md:grid-cols-4 lg:grid-cols-3 gap-8 md:p-20 py-10'>
+        <div className='grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-8 md:p-20 py-10'>
           <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <FaHtml5 color="#E34F26" size={50} />
           </span>
@@ -55,6 +56,23 @@ const Exprince = () => {
              <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
             <SiMysql color="#F29111" size={50} />
           </span>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+            <SiNodedotjs color="#339933" size={50} />
+          </span> 
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>    
+        <SiExpress color="#44883e" size={50} />
+          </span>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+            <SiMongodb color="#47A248" size={50} />
+          </span>
+          <span className='p-2 sm:p-3 bg-zinc-950 flex item-center rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+            <SiShopify color="#96BF48" size={50} />
+          </span>
+        </div>
+      </div>
+      <div className='flex flex-col md:flex-row gap-10 md:gap-20 mt-10 md:mt-20 justify-center items-center'>
+
+          
 
         </div>
         {/* <div className='w-full'>
@@ -115,8 +133,11 @@ const Exprince = () => {
               <h2 className="leading-tight text-xl sm:text-2xl font-bold mb-4 text-center lg:text-left">
                 Qualification
               </h2>
-              <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-tight font-bold mb-2">
-                Diploma :- Computer Science Engg.,G.P.M.A,Hisar
+               <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-tight font-bold mb-2 whitespace-nowrap">
+                PURSUING B.TECH :- Computer Science Engg.<br/>IES UNIVERSITY, Bhopal
+              </p>
+              <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-tight font-bold mb-2 whitespace-nowrap">
+                Diploma :- Computer Science Engg.<br/>G.P.M.A,Hisar
               </p>
               <ul className="text-xs sm:text-sm md:text-base lg:text-lg space-y-1">
                 <li>SENIOR SECONDARY EDUCATION:-G.M.S.S.School</li>
@@ -126,7 +147,7 @@ const Exprince = () => {
           </div>
         </div>
       </div >
-    </div>
+  
   )
 }
 
