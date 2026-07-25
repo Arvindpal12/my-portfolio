@@ -3,10 +3,10 @@ import ProjectCard from './ProjectCard'
 
 const Projects = () => {
   const handleDemo1 = () => {
-    window.open('https://rscadworks.com/') // Placeholder for demo
+    window.open('https://apdigital.netlify.app/') // Placeholder for demo
   };
   const handleSource1 = () => {
-    window.open('https://github.com/Arvindpal12/Tic-toc-game.git')
+    window.open('https://github.com/Arvindpal12/AP-Solutions-.git')
   };
 
   const handleDemo2 = () => {
@@ -28,12 +28,12 @@ const Projects = () => {
         <h1 className='text-2xl md:text-4xl text-white font-bold'> Projects</h1>
         <div className='py-12 px-8 flex flex-wrap gap-5 justify-center'>
              <ProjectCard title="AI Assistent"
-            main="This is a AI Assistent create in js and use some features and using  css and html" onDemoClick={handleDemo3} onSourceClick={handleSource3} />
+            main="An AI-powered assistant built with JavaScript, andinteractive user interface. Designed with modular, feature-rich functionality to provide seamless user experience and efficient task automation." onDemoClick={handleDemo3} onSourceClick={handleSource3} />
             <ProjectCard title="Professional website"
-            main="This is a Professional website create in Reactjs and fully featured website using Reactjs and gsap and more langunage " onDemoClick={handleDemo2} onSourceClick={handleSource2} />
+            main="A fully-featured, professional website built with React.js, enhanced with GSAP for smooth, high-performance animations. Developed using a modern tech stack to deliver a responsive, visually engaging, " onDemoClick={handleDemo2} onSourceClick={handleSource2} />
           
-              <ProjectCard title="Interior Design Services Website"
-            main="Developed a Interior website using wordPress Plugin and Theame" onDemoClick={handleDemo1} onSourceClick={handleSource1}
+              <ProjectCard title="Digital Marketing Website"
+            main="A full-featured Digital Marketing website built with the MERN Stack, powered by React.js and farmer motion for smooth, dynamic user experiences." onDemoClick={handleDemo1} onSourceClick={handleSource1}
             />
 
 

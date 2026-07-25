@@ -134,10 +134,10 @@ const Exprince = () => {
                 Qualification
               </h2>
                <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-tight font-bold mb-2 whitespace-nowrap">
-                PURSUING B.TECH :- Computer Science Engg.<br/>IES UNIVERSITY, Bhopal
+                PURSUING B.TECH :- Computer Science Engg.<br/>MSIET,ROHTAK
               </p>
               <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-tight font-bold mb-2 whitespace-nowrap">
-                Diploma :- Computer Science Engg.<br/>G.P.M.A,Hisar
+               Diploma :- Computer Science Engg.<br/>G.P.M.A,Hisar
               </p>
               <ul className="text-xs sm:text-sm md:text-base lg:text-lg space-y-1">
                 <li>SENIOR SECONDARY EDUCATION:-G.M.S.S.School</li>
