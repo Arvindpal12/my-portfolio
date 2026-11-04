@@ -9,10 +9,10 @@ const Projects = () => {
     window.open('https://github.com/Arvindpal12/Business-management-tool.git')
   };
   const handleDemo2 = () => {
-    window.open('https://lightcoral-eagle-166290.hostingersite.com/') // Placeholder for demo
+    window.open('https://ai-ap-projects.netlify.app/')
   };
   const handleSource2 = () => {
-    window.open('https://github.com/Arvindpal12')
+    window.open('https://github.com/Arvindpal12/AI-based-Project.git')
   };
 
   const handleDemo3 = () => {
@@ -21,12 +21,11 @@ const Projects = () => {
   const handleSource3 = () => {
     window.open('https://github.com/Arvindpal12/AP-Solutions-.git')
   };
-
-  const handleDemo4 = () => {
-    window.open('https://ai-ap-projects.netlify.app/')
+   const handleDemo4 = () => {
+    window.open('https://lightcoral-eagle-166290.hostingersite.com/') // Placeholder for demo
   };
   const handleSource4 = () => {
-    window.open('https://github.com/Arvindpal12/AI-based-Project.git')
+    window.open('https://github.com/Arvindpal12')
   };
   const handleDemo5 = () => {
     window.open('https://ritikjha-portfolio.netlify.app/')
