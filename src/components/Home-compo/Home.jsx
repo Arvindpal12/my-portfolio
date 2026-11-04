@@ -19,7 +19,7 @@ const Home = () => {
     //       user-friendly websites that help businesses grow and stand out online.
     //     </p>
 <motion.div
-      className="text-white flex flex-col md:flex-row w-full h-auto justify-center items-center p-10 md:p-20"
+      className="text-white flex flex-col md:flex-row w-full h-auto justify-center items-center p-10 md:p-20 ml-5"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2 }}
@@ -62,13 +62,13 @@ const Home = () => {
       </motion.div>
 {/* RIGHT SECTION */}
       <motion.div
-        className="w-full md:w-2/4 flex justify-start items-center mt-8 md:mt-0"
+        className="w-full md:w-2/4 flex justify-center items-center mt-8 md:mt-0"
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <img className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full object-cover mx-auto animate-updown" src={arvind1} alt="Arvind" />
+        <img className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 justify-center rounded-full object-cover mx-auto animate-updown items-center" src={arvind1} alt="Arvind" />
       </motion.div>
     </motion.div>
   );
