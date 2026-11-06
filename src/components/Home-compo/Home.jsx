@@ -68,7 +68,7 @@ const Home = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <img className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 justify-center rounded-full object-cover mx-auto animate-updown items-center" src={arvind1} alt="Arvind" />
+        <img className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 justify-start rounded-full object-cover mx-auto animate-updown items-center" src={arvind1} alt="Arvind" />
       </motion.div>
     </motion.div>
   );
