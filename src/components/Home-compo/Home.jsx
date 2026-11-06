@@ -19,7 +19,7 @@ const Home = () => {
     //       user-friendly websites that help businesses grow and stand out online.
     //     </p>
 <motion.div
-      className="text-white flex flex-col md:flex-row w-full h-auto justify-center items-center p-10 md:p-20 ml-5"
+      className="text-white flex flex-col md:flex-row w-full h-auto justify-start items-center p-10 md:p-20 ml-5"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2 }}
@@ -62,7 +62,7 @@ const Home = () => {
       </motion.div>
 {/* RIGHT SECTION */}
       <motion.div
-        className="w-full md:w-2/4 flex justify-center items-center mt-8 md:mt-0"
+        className="w-full md:w-2/4 flex justify-end items-center mt-8 md:mt-0"
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
